@@ -24,7 +24,7 @@ The program calculates the value of the expression `M` for the integer values `x
 
 The formula for the calculation is:
 
-![Task conditions](2025-09-16_19-45.png)
+<img src="2025-09-16_19-45.png" alt="Formula">
 
 ---
 
@@ -54,4 +54,4 @@ The formula for the calculation is:
 
 Формула для вычисления:
 
-![Task conditions](2025-09-16_19-45.png)
+<img src="2025-09-16_19-45.png" alt="Formula">
