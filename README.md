@@ -1,57 +1,77 @@
-# Programming with Linear and Branching Algorithms
+# Programming with Loops and Arrays
 
 ## Tasks for Variant №3
 
-Four tasks were implemented as part of this work:
+Three tasks were implemented as part of this work:
 
-### a) Calculate the area of a circle
+### a) Sum of sequence elements after M
 
-The program calculates the area of a circle, which is defined by a circumference length provided by the user.
+The user inputs:  
+- the number of elements `N`;  
+- a sequence of real numbers `A`;  
+- a real number `M`.  
 
-### b) Queen's move on a chessboard
-
-The chessboard has a size of 8x8. The squares are defined by coordinates: the first is the file number (from left to right), and the second is the rank number (from bottom to top). The user provides four natural numbers: `a`, `b`, `c`, `d`.
-
-The program determines if a queen can move from square `(a, b)` to square `(c, d)` in a single move. If not, it attempts to determine if the move can be made in two steps. Corresponding messages are displayed on the screen.
-
-### c) Check if a number is within an interval
-
-The program checks whether an integer number entered from the keyboard belongs to the interval `(1.3; 10.23]`.
-
-### d) Calculate the value of an expression
-
-The program calculates the value of the expression `M` for the integer values `x` and `y` provided by the user.
-
-The formula for the calculation is:
-
-<img src="2025-09-16_19-45.png" alt="Formula">
+The program calculates the sum of all elements of the sequence that are located **after the element equal to `M`**.
 
 ---
 
-# Программирование на основе линейных и разветвленных алгоритмов
+### b) Double summation
+
+The program computes the value of the double sum:
+
+![Task conditions](2025-09-27_21-35.png)
+
+for `M` and `N` entered from the keyboard.
+
+---
+
+### c) Maximum of a function
+
+The program finds the **maximum value** of the function
+
+\[
+y = x^3 - 2x + 5
+\]
+
+on the interval `[a, b]` with a given step `c`.  
+Values `a`, `b`, and `c` are entered by the user.
+
+---
+
+# Программирование с использованием циклов и массивов
 
 ## Задания для варианта №3
 
-В рамках этой работы было реализовано четыре задачи:
+В рамках этой работы были реализованы три задачи:
 
-### а) Вычисление площади круга
+### а) Сумма элементов последовательности после M
 
-Программа вычисляет площадь круга, ограниченного окружностью, длину которой задает пользователь.
+Пользователь вводит:  
+- количество элементов `N`;  
+- набор действительных чисел `A`;  
+- действительное число `M`.  
 
-### б) Ход ферзя на шахматной доске
+Программа вычисляет сумму всех элементов последовательности, расположенных **после числа `M`**.
 
-Поле шахматной доски имеет размер 8x8. Клетки определяются координатами: первая — номер вертикали (слева направо), вторая — номер горизонтали (снизу вверх). Пользователем задаются натуральные числа `a`, `b`, `c`, `d`.
+---
 
-Программа выясняет, можно ли с поля `(a, b)` одним ходом ферзя попасть на поле `(c, d)`. Если нет, то программа пытается выяснить, можно ли это сделать за два хода. На экран выводятся соответствующие сообщения.
+### б) Двойная сумма
 
-### в) Проверка принадлежности к интервалу
+Программа вычисляет значение двойной суммы:
 
-Программа проверяет, принадлежит ли введенное с клавиатуры целое число интервалу `(1.3; 10.23]`.
+![Task conditions](2025-09-27_21-35.png)
 
-### г) Вычисление значения выражения
+для `M` и `N`, введённых с клавиатуры.
 
-Программа вычисляет значение выражения `M` для заданных пользователем целых чисел `x` и `y`.
+---
 
-Формула для вычисления:
+### в) Максимум функции
 
-<img src="2025-09-16_19-45.png" alt="Formula">
+Программа находит **максимальное значение** функции
+
+\[
+y = x^3 - 2x + 5
+\]
+
+на отрезке `[a, b]` с заданным шагом `c`.  
+Значения `a`, `b` и `c` задаются пользователем.
