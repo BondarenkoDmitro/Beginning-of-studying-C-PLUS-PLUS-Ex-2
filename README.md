@@ -29,9 +29,7 @@ for `M` and `N` entered from the keyboard.
 
 The program finds the **maximum value** of the function
 
-\[
-y = x^3 - 2x + 5
-\]
+![Task conditions](2025-09-27_21-49.png)
 
 on the interval `[a, b]` with a given step `c`.  
 Values `a`, `b`, and `c` are entered by the user.
@@ -69,9 +67,7 @@ Values `a`, `b`, and `c` are entered by the user.
 
 Программа находит **максимальное значение** функции
 
-\[
-y = x^3 - 2x + 5
-\]
+![Task conditions](2025-09-27_21-49.png)
 
 на отрезке `[a, b]` с заданным шагом `c`.  
 Значения `a`, `b` и `c` задаются пользователем.
