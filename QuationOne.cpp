@@ -3,21 +3,18 @@
 using namespace std;
 
 int main() {
-    int sum = 0;
-    int n, m, end;
-    int start = 0;
-    cout << "Введите размер последовательности:" << endl;
+    int n, a, m, sum;
+    cout << "Кількість членів послідовності N:" << endl;
     cin >> n;
-    cout << "Введите число с каторым будет сравнивать:" << endl;
+    cout << "Дійсне число M: " << endl;
     cin >> m;
-    cout << "Введите максимальное число с каторым будет сравнивать число: " << m << endl;
-    cin >> end;
+    cout << "Набір дійсних членів послідовності A але до " << n << "шт:" << endl;
     for (int i = 1; i <= n; i++) {
-        int randomArray = rand() % (end - start) + start;
-        cout << randomArray << endl;
-        if (randomArray >= m) {
-            sum = sum + randomArray;
+        cout << i << ". ";
+        cin >> a;
+        if (a > m) {
+            sum += a;
         }
     }
-    cout << "Сумма чисел которые больше чем ваше число для сравнения:" << endl << sum;
+    cout << "Сумма членів послідовності, розташованих після числа M: " <<  sum << endl;
 }
