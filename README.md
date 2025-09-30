@@ -2,7 +2,7 @@
 
 ## Tasks for Variant №3
 
-Three tasks were implemented as part of this work:
+Four tasks were implemented as part of this work:
 
 ### a) Sum of sequence elements after M
 
@@ -36,11 +36,21 @@ Values `a`, `b`, and `c` are entered by the user.
 
 ---
 
+### d) Sum of series terms
+
+The program calculates the sum of the first `n` terms of the series:
+
+![Task conditions](2025-09-30_21-53.png)
+
+The values `x` and `n` are entered by the user.
+
+---
+
 # Программирование с использованием циклов и массивов
 
 ## Задания для варианта №3
 
-В рамках этой работы были реализованы три задачи:
+В рамках этой работы были реализованы четыре задачи:
 
 ### а) Сумма элементов последовательности после M
 
@@ -71,3 +81,13 @@ Values `a`, `b`, and `c` are entered by the user.
 
 на отрезке `[a, b]` с заданным шагом `c`.  
 Значения `a`, `b` и `c` задаются пользователем.
+
+---
+
+### г) Сумма членов ряда
+
+Программа вычисляет сумму первых `n` членов ряда:
+
+![Task conditions](2025-09-30_21-53.png)
+
+Значения `x` и `n` вводит пользователь.
